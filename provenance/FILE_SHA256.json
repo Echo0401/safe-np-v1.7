@@ -318,5 +318,9 @@
   "tests/test_safe_gamma.py": {
     "bytes": 3511,
     "sha256": "61126deabdb59ff448b63d74e6e84e785306fcd26f4d2b5ac2a9daafd0079a80"
+  },
+  "LICENSE": {
+    "bytes": 1066,
+    "sha256": "07920d0f5ce448a1d0c67949801421ade2f56746db6deb33eb444eb5c2a12020"
   }
 }
