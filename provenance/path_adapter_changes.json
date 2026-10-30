@@ -1,0 +1,32 @@
+[
+  {
+    "file": "src/preprocessing/prepare_relax_longitudinal_v2.py",
+    "scope": "path and test-loader plumbing only",
+    "original_sha256": "684ae1fd6f6ce653607de41b9ab984b60639f2cb0c1af0c20031198bf59afe6d",
+    "candidate_sha256": "eb83ecaa06e791aafd3785e719df10b9280145c93d2535417f559cfdb1d9f911"
+  },
+  {
+    "file": "tests/test_safe_gamma.py",
+    "scope": "path and test-loader plumbing only",
+    "original_sha256": "80a231085a664a7d85514162044a530a78740af09a504d5de453b3d296bbc617",
+    "candidate_sha256": "61126deabdb59ff448b63d74e6e84e785306fcd26f4d2b5ac2a9daafd0079a80"
+  },
+  {
+    "file": "tests/test_ablation_contracts.py",
+    "scope": "path and test-loader plumbing only",
+    "original_sha256": "0b4432d16761d1d76d71702481fc8575acfd99d55d6ca66e768c0712736dc661",
+    "candidate_sha256": "8df3b88c8110255fde8f90313c86ca35035248ee4354a5cab35a72e9a17496bf"
+  },
+  {
+    "file": "tests/test_label_availability.py",
+    "scope": "path and test-loader plumbing only",
+    "original_sha256": "4b6193e778da9d863f15548c8670231cc9e4e7275cfb4b951e21c9367a8abc6b",
+    "candidate_sha256": "9e28bdb150bfc3df26e9ff71f638f984b565301e12206247374d29b4ca17d226"
+  },
+  {
+    "file": "src/analysis/participant_statistics.py",
+    "scope": "path and test-loader plumbing only",
+    "original_sha256": "e3dfe35b731b36f4c9d2153a4736c79205e9a72c0f5aa4f3fe2cc69b5ffb031b",
+    "candidate_sha256": "4e390a70bc82a55752960fdead59d098451c01e77063004f3b93f7f0a3c59088"
+  }
+]

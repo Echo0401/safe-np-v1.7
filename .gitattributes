@@ -1,0 +1,2 @@
+# Preserve the reviewed bytes and SHA-256 values across clones.
+* -text

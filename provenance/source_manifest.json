@@ -1,0 +1,321 @@
+[
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/code/v1_7_safe_source_calibrated.py",
+    "candidate_path": "src/frozen/v1_7_safe_source_calibrated.py",
+    "original_sha256": "54e1a4ef5b75c64206c6e80f58df25a922affb93c9df47413bca1a6ba8f9deae",
+    "candidate_sha256": "54e1a4ef5b75c64206c6e80f58df25a922affb93c9df47413bca1a6ba8f9deae",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/code/controlled_ablation_v17.py",
+    "candidate_path": "src/ablations/controlled_ablation_v17.py",
+    "original_sha256": "4f53e34d5a8eb842627e7aabde1e7cc50768b2d8306976c762f98dcb12810ccb",
+    "candidate_sha256": "4f53e34d5a8eb842627e7aabde1e7cc50768b2d8306976c762f98dcb12810ccb",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/code/aggregate_controlled_ablation.py",
+    "candidate_path": "src/ablations/aggregate_controlled_ablation.py",
+    "original_sha256": "b1b7b0c60a839fc82013c0d578f595815e28e71142999e067bb8350f1b5306d3",
+    "candidate_sha256": "b1b7b0c60a839fc82013c0d578f595815e28e71142999e067bb8350f1b5306d3",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_任务1代码收尾_20261015/code/safe_np_relax_release_v18.py",
+    "candidate_path": "src/release/safe_np_relax_release_v18.py",
+    "original_sha256": "122cc73248dc91a4cef80ae521c66a7f32592cc81f148286ccefe387cf3d6735",
+    "candidate_sha256": "122cc73248dc91a4cef80ae521c66a7f32592cc81f148286ccefe387cf3d6735",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_任务1代码收尾_20261015/code/prepare_relax_longitudinal_v2.py",
+    "candidate_path": "src/preprocessing/prepare_relax_longitudinal_v2.py",
+    "original_sha256": "684ae1fd6f6ce653607de41b9ab984b60639f2cb0c1af0c20031198bf59afe6d",
+    "candidate_sha256": "eb83ecaa06e791aafd3785e719df10b9280145c93d2535417f559cfdb1d9f911",
+    "byte_identical": false
+  },
+  {
+    "source_project_relative": "outputs/NP_Polar_完整分析包_20261013/01_最终代码/polar_qc_prepare.py",
+    "candidate_path": "src/preprocessing/polar_qc_prepare.py",
+    "original_sha256": "4f8b60bf0b5536f9a6b16a7f150d65401f8ebd6bef5060128e3d0eb3d4399e9f",
+    "candidate_sha256": "4f8b60bf0b5536f9a6b16a7f150d65401f8ebd6bef5060128e3d0eb3d4399e9f",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/NP_Polar_完整分析包_20261013/01_最终代码/test_v1_7_safe_gamma.py",
+    "candidate_path": "tests/test_safe_gamma.py",
+    "original_sha256": "80a231085a664a7d85514162044a530a78740af09a504d5de453b3d296bbc617",
+    "candidate_sha256": "61126deabdb59ff448b63d74e6e84e785306fcd26f4d2b5ac2a9daafd0079a80",
+    "byte_identical": false
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/code/test_controlled_ablation_variants.py",
+    "candidate_path": "tests/test_ablation_contracts.py",
+    "original_sha256": "0b4432d16761d1d76d71702481fc8575acfd99d55d6ca66e768c0712736dc661",
+    "candidate_sha256": "8df3b88c8110255fde8f90313c86ca35035248ee4354a5cab35a72e9a17496bf",
+    "byte_identical": false
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_任务1代码收尾_20261015/tests/test_label_availability_contract.py",
+    "candidate_path": "tests/test_label_availability.py",
+    "original_sha256": "4b6193e778da9d863f15548c8670231cc9e4e7275cfb4b951e21c9367a8abc6b",
+    "candidate_sha256": "9e28bdb150bfc3df26e9ff71f638f984b565301e12206247374d29b4ca17d226",
+    "byte_identical": false
+  },
+  {
+    "source_project_relative": "outputs/NP_Polar_完整分析包_20261013/01_最终代码/analyze_polar_v17.py",
+    "candidate_path": "src/analysis/participant_statistics.py",
+    "original_sha256": "e3dfe35b731b36f4c9d2153a4736c79205e9a72c0f5aa4f3fe2cc69b5ffb031b",
+    "candidate_sha256": "4e390a70bc82a55752960fdead59d098451c01e77063004f3b93f7f0a3c59088",
+    "byte_identical": false
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/raw_runs/RELAX_A6_formal/run_config.json",
+    "candidate_path": "configs/frozen/relax_a6_run_config.json",
+    "original_sha256": "eeaa77f17ac90517384a26886c37a3c4ab3c55f073514ca21e84564bd3587528",
+    "candidate_sha256": "135e2345718d244394b84eab288de7c4338c3903998b43ac12ff1a7356981789",
+    "byte_identical": false,
+    "change": "input paths made repository-relative; all other keys preserved"
+  },
+  {
+    "source_project_relative": "work/analysis/POLAR_V17_external_pilot_5seeds/run_config.json",
+    "candidate_path": "configs/frozen/polar_a6_run_config.json",
+    "original_sha256": "8c575c0ffb65bd2cc156a0c8a1f8167d772aaa944f45efe71cd12475704e6603",
+    "candidate_sha256": "5fc24f7d15e1e89576f2e1e24274fe4045165f09a9e9d01b0797bbb9cc0f7382",
+    "byte_identical": false,
+    "change": "input paths made repository-relative; all other keys preserved"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/raw_runs/RELAX_A1_5seeds/run_config.json",
+    "candidate_path": "configs/frozen/relax_a1_run_config.json",
+    "original_sha256": "46fddd6bb5d2a3647ef803c95c5ef7460ff112269a98bea84a0fd1308117740a",
+    "candidate_sha256": "160ff60ba13ebb96cd35cc53c1ca91bdd4d8823e6f4bfaaaa9a0afc6c84dec35",
+    "byte_identical": false,
+    "change": "input paths made repository-relative; all other keys preserved"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/raw_runs/RELAX_A2_5seeds/run_config.json",
+    "candidate_path": "configs/frozen/relax_a2_run_config.json",
+    "original_sha256": "90acac0788f765a327cb64ebce6cee89d4b32150729273c131a7a678092dc250",
+    "candidate_sha256": "97f7a111fea9450e3a933a57d3c0648aca04a6ecbcdee0b3bf23acf3d2596657",
+    "byte_identical": false,
+    "change": "input paths made repository-relative; all other keys preserved"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/raw_runs/RELAX_A3_5seeds/run_config.json",
+    "candidate_path": "configs/frozen/relax_a3_run_config.json",
+    "original_sha256": "b40e0c5a005998230749521a2d4d4135ad7f02aefa6f626de9957771c9350cfb",
+    "candidate_sha256": "a519b5eb1b3c4f8d7b1e4491ab00f97c7c31ea17b0e66f8db73ad52dbcb2961e",
+    "byte_identical": false,
+    "change": "input paths made repository-relative; all other keys preserved"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/ablation_summary_long.csv",
+    "candidate_path": "results/reference/ablation_ablation_summary_long.csv",
+    "original_sha256": "66a4b636f425307da4cae5a201cab25107ac1ccc35125c1a9b92e477174139fa",
+    "candidate_sha256": "66a4b636f425307da4cae5a201cab25107ac1ccc35125c1a9b92e477174139fa",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/paired_vs_Global_A0.csv",
+    "candidate_path": "results/reference/ablation_paired_vs_Global_A0.csv",
+    "original_sha256": "e11c67f2114ccf499b915f720083ba1d66a824ff8b5270a52e86115f3df80566",
+    "candidate_sha256": "e11c67f2114ccf499b915f720083ba1d66a824ff8b5270a52e86115f3df80566",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/paired_vs_SafeNP_A6.csv",
+    "candidate_path": "results/reference/ablation_paired_vs_SafeNP_A6.csv",
+    "original_sha256": "2e8691fa3775a7bde257bcc968e706e10f54319768d6c6c79033ff5377746211",
+    "candidate_sha256": "2e8691fa3775a7bde257bcc968e706e10f54319768d6c6c79033ff5377746211",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/paper_table_formatted.csv",
+    "candidate_path": "results/reference/ablation_paper_table_formatted.csv",
+    "original_sha256": "56ef384386a542d4bef00995f531101e84edb019e26c5930b62b1b0e7c4eb38e",
+    "candidate_sha256": "56ef384386a542d4bef00995f531101e84edb019e26c5930b62b1b0e7c4eb38e",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/paper_table_numeric.csv",
+    "candidate_path": "results/reference/ablation_paper_table_numeric.csv",
+    "original_sha256": "2f3b594f265b66494b18f0e7cde377cbfd2c2f9c916507aa3b12eb60eb4d1d75",
+    "candidate_sha256": "2f3b594f265b66494b18f0e7cde377cbfd2c2f9c916507aa3b12eb60eb4d1d75",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/query_key_audit.csv",
+    "candidate_path": "results/reference/ablation_query_key_audit.csv",
+    "original_sha256": "2d1893035665e0be65260494d40536faed26b603b2c64d4ec4e8d6e982123d49",
+    "candidate_sha256": "2d1893035665e0be65260494d40536faed26b603b2c64d4ec4e8d6e982123d49",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_最终修订包_20261015/07_完整复现包/04_A0_A6消融/aggregate/reconstruction_audit.json",
+    "candidate_path": "results/reference/ablation_reconstruction_audit.json",
+    "original_sha256": "f29cfd94bd715bc133a5a1187bc3a9556dc6dd8f192598f85909ca7fdd52108e",
+    "candidate_sha256": "f29cfd94bd715bc133a5a1187bc3a9556dc6dd8f192598f85909ca7fdd52108e",
+    "byte_identical": true
+  },
+  {
+    "source_project_relative": "original_project/cnn_prototype_loso_v2.py",
+    "candidate_path": "src/reference/cnn_prototype_loso_v2.py",
+    "original_sha256": "b182bc304ce8c1d1c6a1d9d8a6998d176c5dcddf59339434de36f7d4564a63d7",
+    "candidate_sha256": "b182bc304ce8c1d1c6a1d9d8a6998d176c5dcddf59339434de36f7d4564a63d7",
+    "byte_identical": true,
+    "role": "WESAD reference only; original run did not store a source-code hash"
+  },
+  {
+    "source_project_relative": "original_project/prepare_wesad_and_loso.py",
+    "candidate_path": "src/preprocessing/prepare_wesad_and_loso.py",
+    "original_sha256": "c0faf55ab553eb66a72a9eea9d582fc13156d78b8c33ac4cd44114a309a558a3",
+    "candidate_sha256": "c0faf55ab553eb66a72a9eea9d582fc13156d78b8c33ac4cd44114a309a558a3",
+    "byte_identical": true,
+    "role": "WESAD reference only; original run did not store a source-code hash"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_任务1代码收尾_20261015/audit/verify_release_indices.py",
+    "candidate_path": "scripts/verify_release_indices.py",
+    "original_sha256": "f99d392cd0f2d14ab6bda7ff3e7ce08c0145db8e8db404a4482c0ffba70a5b1c",
+    "candidate_sha256": "267e8be699b0fe9f9b993b8d2fd045b667c53a0361db94637a3e792b5574eac7",
+    "byte_identical": false,
+    "change": "audit paths and CLI only; all existing function ASTs identical"
+  },
+  {
+    "source_project_relative": "outputs/SafeNP_BSPC_任务1代码收尾_20261015/config/relax_longitudinal_v2_config.json",
+    "candidate_path": "configs/frozen/relax_preparation_v2.json",
+    "original_sha256": "f53d3b7a7dd74141ee5bb339c70133c4b6e20e5e36edc0f0f5b7c495b644cf47",
+    "candidate_sha256": "f53d3b7a7dd74141ee5bb339c70133c4b6e20e5e36edc0f0f5b7c495b644cf47",
+    "byte_identical": true,
+    "change": null
+  },
+  {
+    "source_project_relative": "work/analysis/relax_v17_recomputed/relax_v17_paper_table_c6.csv",
+    "candidate_path": "results/reference/relax_paper_table_c6.csv",
+    "original_sha256": "5835ca31e731e0ea23def40521f134b14df0945272b9e5a7accc519939c4be45",
+    "candidate_sha256": "5835ca31e731e0ea23def40521f134b14df0945272b9e5a7accc519939c4be45",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "work/analysis/relax_v17_recomputed/relax_v17_participant_method_summary.csv",
+    "candidate_path": "results/reference/relax_participant_method_summary.csv",
+    "original_sha256": "ec0b02c03cc51f8652d0a73bbff1bb39a5b807722585e4c9e589babd124c1c20",
+    "candidate_sha256": "ec0b02c03cc51f8652d0a73bbff1bb39a5b807722585e4c9e589babd124c1c20",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "work/analysis/relax_v17_recomputed/relax_v17_participant_paired_tests.csv",
+    "candidate_path": "results/reference/relax_participant_paired_tests.csv",
+    "original_sha256": "3875461485322fe593ed34d0695fcd88e63b03eee683241de86f3d33d39a8a30",
+    "candidate_sha256": "3875461485322fe593ed34d0695fcd88e63b03eee683241de86f3d33d39a8a30",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "work/analysis/polar_v17_recomputed/polar_v17_paper_table_c6.csv",
+    "candidate_path": "results/reference/polar_paper_table_c6.csv",
+    "original_sha256": "1d960b391f3e0803200a0f5bd63d48e078c2918d229e48aa3b2da8ff4f0e8821",
+    "candidate_sha256": "1d960b391f3e0803200a0f5bd63d48e078c2918d229e48aa3b2da8ff4f0e8821",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "work/analysis/polar_v17_recomputed/polar_v17_participant_method_summary.csv",
+    "candidate_path": "results/reference/polar_participant_method_summary.csv",
+    "original_sha256": "62ad07eff1bf2431159059541755db9643fd2233ee83b3ecdf7c0f9a28890ffa",
+    "candidate_sha256": "62ad07eff1bf2431159059541755db9643fd2233ee83b3ecdf7c0f9a28890ffa",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "work/analysis/polar_v17_recomputed/polar_v17_participant_paired_tests.csv",
+    "candidate_path": "results/reference/polar_participant_paired_tests.csv",
+    "original_sha256": "49a57986c93279b268372824ec97b00672e04761e7aa09fc6b936a25f0919680",
+    "candidate_sha256": "49a57986c93279b268372824ec97b00672e04761e7aa09fc6b936a25f0919680",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2026/cnn_config.json",
+    "candidate_path": "configs/frozen/wesad_reference_seed2026.json",
+    "original_sha256": "8921a7f72b4a7c86e7848cb43096276923602c773e0afac3e6389e6c59d34c8e",
+    "candidate_sha256": "b222f6f42e7601aee100cbd354d3f73c9aa712f990c66cc7d0cfd5b26f55eb1f",
+    "byte_identical": false,
+    "role": "input/output path adaptation; numeric settings preserved"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2026/cnn_matched_comparison_summary.csv",
+    "candidate_path": "results/reference/wesad_seed2026_group_summary.csv",
+    "original_sha256": "04e709e9f40abfe3a6cb6082669f6889b7345a49d0a8aecf555e29ad995b7ae4",
+    "candidate_sha256": "04e709e9f40abfe3a6cb6082669f6889b7345a49d0a8aecf555e29ad995b7ae4",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2036/cnn_config.json",
+    "candidate_path": "configs/frozen/wesad_reference_seed2036.json",
+    "original_sha256": "542481f6cad132037cbb6b209f79e30178ba2fcbe165cf628681348abb856d7a",
+    "candidate_sha256": "5e0efe12366218ef0e9a3dca3f667cb1ec827d44bfbbc00a293fe3ef515c0718",
+    "byte_identical": false,
+    "role": "input/output path adaptation; numeric settings preserved"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2036/cnn_matched_comparison_summary.csv",
+    "candidate_path": "results/reference/wesad_seed2036_group_summary.csv",
+    "original_sha256": "39d42d6f7d4737759d954907b2a1e40e630af2f9051b145abff0eaafa5208d4b",
+    "candidate_sha256": "39d42d6f7d4737759d954907b2a1e40e630af2f9051b145abff0eaafa5208d4b",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2046/cnn_config.json",
+    "candidate_path": "configs/frozen/wesad_reference_seed2046.json",
+    "original_sha256": "986bbc8aa2b4699e34377ca37e75606932837e328a244bccc35a87373b5c018c",
+    "candidate_sha256": "3a22165f134e38cba850b76e0bc84969544bd76755d1e3571f40435be27ddb53",
+    "byte_identical": false,
+    "role": "input/output path adaptation; numeric settings preserved"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2046/cnn_matched_comparison_summary.csv",
+    "candidate_path": "results/reference/wesad_seed2046_group_summary.csv",
+    "original_sha256": "ee36a253ca5b2d37130ca96a51506ad35b57ea966607eab75094581908cbf2aa",
+    "candidate_sha256": "ee36a253ca5b2d37130ca96a51506ad35b57ea966607eab75094581908cbf2aa",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2056/cnn_config.json",
+    "candidate_path": "configs/frozen/wesad_reference_seed2056.json",
+    "original_sha256": "ee67b2fd7f66049352198cc0f48765154050a0cfc6843618a5621076f965735e",
+    "candidate_sha256": "7af525bdc8057d986f5996d24d86d42f4724530a7146977190c744693ce99849",
+    "byte_identical": false,
+    "role": "input/output path adaptation; numeric settings preserved"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2056/cnn_matched_comparison_summary.csv",
+    "candidate_path": "results/reference/wesad_seed2056_group_summary.csv",
+    "original_sha256": "76c5c50f3c97cbd0bd08650162f3180e9bf4b01b1309bfa776e09d790f815ed8",
+    "candidate_sha256": "76c5c50f3c97cbd0bd08650162f3180e9bf4b01b1309bfa776e09d790f815ed8",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2066/cnn_config.json",
+    "candidate_path": "configs/frozen/wesad_reference_seed2066.json",
+    "original_sha256": "4bb1029fe30e62ac6ed54f560d0e25dc1df7c1ed15f39c84b8029c313bfb37a5",
+    "candidate_sha256": "73ac964545401e376559fc7a3ae4c0a12e2a1528965b6c9bc8418a18fc9fd16c",
+    "byte_identical": false,
+    "role": "input/output path adaptation; numeric settings preserved"
+  },
+  {
+    "source_project_relative": "external_wesad_reference/seed2066/cnn_matched_comparison_summary.csv",
+    "candidate_path": "results/reference/wesad_seed2066_group_summary.csv",
+    "original_sha256": "a31ae2986ad1d3658ec1dfb4044eda34715d34b6cbcda7ade296c721642a2f8f",
+    "candidate_sha256": "a31ae2986ad1d3658ec1dfb4044eda34715d34b6cbcda7ade296c721642a2f8f",
+    "byte_identical": true,
+    "role": "group aggregate reference"
+  }
+]

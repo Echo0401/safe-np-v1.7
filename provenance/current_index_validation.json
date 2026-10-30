@@ -1,0 +1,28 @@
+{
+  "scope": "actual release builders; index reconstruction only; no training",
+  "release_script": "src/release/safe_np_relax_release_v18.py",
+  "label_available_source": "ifb_submission_utc",
+  "manifest_rows_after_overlap_filter": 553,
+  "target_unique_queries": 171,
+  "target_query_context_rows": 513,
+  "source_unique_queries": 363,
+  "source_query_context_rows": 835,
+  "source_history_links": 3048,
+  "three_time_context_links_audited": 3048,
+  "three_time_context_violations": 0,
+  "target_comparison": {
+    "actual_rows": 513,
+    "reference_rows": 513,
+    "exact_row_for_row": true,
+    "actual_only": 0,
+    "reference_only": 0
+  },
+  "source_comparison": {
+    "actual_rows": 835,
+    "reference_rows": 835,
+    "exact_row_for_row": true,
+    "actual_only": 0,
+    "reference_only": 0
+  },
+  "all_indices_exact": true
+}

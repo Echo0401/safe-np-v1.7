@@ -1,0 +1,33 @@
+{
+  "data_npz": "data/restricted/wesad/prepared/wesad_windows.npz",
+  "manifest_csv": "data/restricted/wesad/prepared/wesad_manifest.csv",
+  "output_dir": "runs/wesad_reference_seed2026_new",
+  "input_mode": "fusion",
+  "embedding_dim": 64,
+  "k_values": [
+    1,
+    3,
+    5
+  ],
+  "repeats": 20,
+  "random_seed": 2026,
+  "calibration_fraction": 0.5,
+  "gap_rr": 64,
+  "balance_nonstress_states": true,
+  "require_both_test_classes": true,
+  "prototype_metric": "cosine",
+  "prototype_temperature": 1.0,
+  "batch_size": 64,
+  "max_epochs": 80,
+  "patience": 12,
+  "min_epochs": 10,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.2,
+  "n_val_subjects": 2,
+  "num_workers": 0,
+  "minimum_retrain_epochs": 1,
+  "deterministic": true,
+  "device_used": "cpu",
+  "torch_version": "2.12.1+cpu"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "relax",
+    "logical_path": "data/restricted/relax/prepared/relax_longitudinal_v2.npz",
+    "bytes": 122942,
+    "sha256": "d1fbd275120b8f2ace4759a40efef9ee80f02dafb5766337de692cd135541468",
+    "included": false
+  },
+  {
+    "dataset": "relax",
+    "logical_path": "data/restricted/relax/prepared/relax_longitudinal_v2_manifest.csv",
+    "bytes": 220078,
+    "sha256": "714c96604aa5536f418c38042b0c0877489082e125429d370fc33b81eb1d7980",
+    "included": false
+  },
+  {
+    "dataset": "polar",
+    "logical_path": "data/restricted/polar/prepared/polar_longitudinal_strict.npz",
+    "bytes": 44789,
+    "sha256": "0442254882bdf2a4920be5f87eecc99899ad5a3a5ec62c0c67304b7c334cbacf",
+    "included": false
+  },
+  {
+    "dataset": "polar",
+    "logical_path": "data/restricted/polar/prepared/polar_longitudinal_strict_manifest.csv",
+    "bytes": 165150,
+    "sha256": "b6f81fb4038af90712ec62e380c2e995a6a2a85a63da07538f99faa65935a7c8",
+    "included": false
+  },
+  {
+    "dataset": "wesad_reference",
+    "logical_path": "data/restricted/wesad/prepared/wesad_windows.npz",
+    "bytes": 213008,
+    "sha256": "30bd962fc0571cc9d480d80ea5b8178f744cc7f31f4c12209b927a67021ec671",
+    "included": false
+  },
+  {
+    "dataset": "wesad_reference",
+    "logical_path": "data/restricted/wesad/prepared/wesad_manifest.csv",
+    "bytes": 224572,
+    "sha256": "c52bfe0be0b63ceef1d365cfb7b4211edfb4c20e3e8a8885997475c00b6db79b",
+    "included": false
+  }
+]

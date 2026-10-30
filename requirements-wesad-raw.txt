@@ -1,0 +1,4 @@
+# Prospective setup only; this is NOT a frozen historical environment.
+# The historical NeuroKit2 version was not recovered. See docs/WESAD_REFERENCE.md.
+-r requirements.txt
+neurokit2

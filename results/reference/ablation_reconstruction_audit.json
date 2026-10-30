@@ -1,0 +1,41 @@
+{
+  "hard_bound_logodds": 1.0,
+  "n_a6_queries": 2565,
+  "n_a6_fallback_queries": 1761,
+  "n_a6_active_queries": 804,
+  "gamma0_exact_probability_identity": true,
+  "a6_reconstruction_max_abs_probability_error": 5.663802393751638e-08,
+  "a6_reconstruction_mean_abs_probability_error": 5.052786987135603e-09,
+  "raw_gamma_fold_counts": {
+    "0.0": 24,
+    "0.25": 2,
+    "0.5": 1,
+    "1.0": 2,
+    "2.0": 2,
+    "4.0": 2,
+    "8.0": 32
+  },
+  "final_gamma_fold_counts": {
+    "0.0": 50,
+    "0.25": 1,
+    "0.5": 1,
+    "1.0": 1,
+    "2.0": 2,
+    "4.0": 2,
+    "8.0": 8
+  },
+  "source_global_invariance": {
+    "A1": {
+      "bitwise_identical_to_A6_global": true,
+      "max_abs_probability_error": 0.0
+    },
+    "A2": {
+      "bitwise_identical_to_A6_global": true,
+      "max_abs_probability_error": 0.0
+    },
+    "A3": {
+      "bitwise_identical_to_A6_global": true,
+      "max_abs_probability_error": 0.0
+    }
+  }
+}

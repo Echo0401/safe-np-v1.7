@@ -1,0 +1,117 @@
+{
+  "script": "controlled_ablation_v17.py",
+  "ablation_id": "A3",
+  "ablation_spec": {
+    "label": "Anchored bounded NP (free residual direction)",
+    "uses_global_anchor": true,
+    "hard_bound_enabled": true,
+    "direction_constraint_enabled": false,
+    "source_gamma_mode": "fixed_gamma_1"
+  },
+  "data_npz": "data/restricted/relax/prepared/relax_longitudinal_v2.npz",
+  "manifest": "data/restricted/relax/prepared/relax_longitudinal_v2_manifest.csv",
+  "device": "cpu",
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "target_subjects": [
+    13,
+    16,
+    18,
+    22,
+    25,
+    28,
+    38,
+    43,
+    45,
+    46,
+    48,
+    49,
+    56
+  ],
+  "context_per_class": [
+    1,
+    2,
+    3
+  ],
+  "context_total": [
+    2,
+    4,
+    6
+  ],
+  "drop_overlap": true,
+  "encoder": {
+    "architecture": "RR Conv1D + HRV MLP + 64-d fusion embedding",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "max_epochs": 30,
+    "patience": 8,
+    "inner_val_fraction": 0.2
+  },
+  "neural_process": {
+    "type": "contrastive gated residual temporal attentive neural process",
+    "hidden_dim": 96,
+    "latent_dim": 32,
+    "attention_dim": 64,
+    "context_aux_weight": 0.1,
+    "posterior_predictive_weight": 0.5,
+    "alpha_max": 0.5,
+    "residual_max_logodds": 2.0,
+    "max_applied_logodds_shift": 1.0,
+    "gate_init_fraction": 0.1,
+    "gate_reg_weight": 0.01,
+    "residual_reg_weight": 0.02,
+    "contrast_scale": 2.0,
+    "residual_init_fraction": 0.02,
+    "gate_receives_context_count": false,
+    "residual_direction": "free learned signed residual",
+    "lr": 0.0005,
+    "weight_decay": 1e-05,
+    "max_epochs": 40,
+    "patience": 10,
+    "episodes_per_epoch": 64,
+    "meta_query_per_class": 1,
+    "beta_kl": 0.005,
+    "mc_samples_eval": 30,
+    "target_gradient_update": false,
+    "embedding_normalization_in_personalization_branch": true,
+    "global_anchor": "frozen source Global Fusion log-probabilities",
+    "residual_parameterization": "Anchored bounded NP (free residual direction)",
+    "source_episode_protocol": "chronological past-context -> future-query",
+    "primary_target_prediction": "Global Fusion anchor + gated query-contrastive temporal-attentive NP residual using deterministic prior mean",
+    "source_model_selection_protocol": "NP early stopping uses inner-train-only encoder/scaler; inner-val subjects are representation-unseen",
+    "adaptation_strength_calibration": {
+      "selection_scope": "SOURCE-ONLY inner-validation chronological episodes",
+      "candidates": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "primary": "nll",
+      "aggregation": "equal-weight hierarchy: episode -> subject within (context,class) -> context/class strata",
+      "tie_break": "secondary proper score, then smaller gamma",
+      "minimum_balanced_nll_improvement_vs_gamma0": 0.001,
+      "activation_rule": "activate raw source-selected gamma only when its balanced NLL improves on gamma=0 by at least the pre-specified minimum; otherwise use gamma=0",
+      "gamma0_contract": "exact frozen Global Fusion probabilities without log/exp recalculation",
+      "hard_bound_after_gamma": true,
+      "outer_target_used_for_selection": false
+    }
+  },
+  "prototype_temperature": 1.0,
+  "fine_tuning": {
+    "target_gradient_update": true,
+    "head_only": true,
+    "steps": 60,
+    "lr": 0.005,
+    "anchor_lambda": 0.001
+  },
+  "query_protocol": "same future query at all context sizes; most recent balanced nested target history; context strictly earlier than query"
+}

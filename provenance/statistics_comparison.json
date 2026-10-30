@@ -1,0 +1,80 @@
+[
+  {
+    "file": "ablation_summary_long.csv",
+    "rows": 63,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "file": "paired_vs_Global_A0.csv",
+    "rows": 54,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "file": "paired_vs_SafeNP_A6.csv",
+    "rows": 54,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "file": "paper_table_formatted.csv",
+    "rows": 63,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "file": "paper_table_numeric.csv",
+    "rows": 63,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "file": "query_key_audit.csv",
+    "rows": 7,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "relax",
+    "file": "relax_v17_paper_table_c6.csv",
+    "rows": 4,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "relax",
+    "file": "relax_v17_participant_method_summary.csv",
+    "rows": 60,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "relax",
+    "file": "relax_v17_participant_paired_tests.csv",
+    "rows": 25,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "polar",
+    "file": "polar_v17_paper_table_c6.csv",
+    "rows": 4,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "polar",
+    "file": "polar_v17_participant_method_summary.csv",
+    "rows": 60,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  },
+  {
+    "dataset": "polar",
+    "file": "polar_v17_participant_paired_tests.csv",
+    "rows": 25,
+    "matches_saved_reference": true,
+    "numeric_tolerance": 1e-12
+  }
+]

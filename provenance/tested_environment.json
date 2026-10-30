@@ -1,0 +1,15 @@
+{
+  "purpose": "environment tested for local packaging checks; not a historical training lockfile",
+  "python": "3.10.0",
+  "operating_system": "Windows",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.7.2",
+    "torch": "2.12.1",
+    "fastparquet": "2026.5.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.10.9"
+  }
+}
